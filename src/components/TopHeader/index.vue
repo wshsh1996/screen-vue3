@@ -8,6 +8,7 @@
         <dv-decoration-8 class="dv-dec-8" />
         <div class="title">
           <span class="title-text">帅帅中心驾驶舱</span>
+          <dv-button class="dv-btn-toggle" border="Border5" color="#e18a3b" @click="toggle">切换</dv-button>
           <dv-decoration-6 class="dv-dec-6" :reverse="true" :color="['#50e3c2', '#67a1e5']" />
         </div>
         <dv-decoration-8 class="dv-dec-8" :reverse="true" />
@@ -18,6 +19,15 @@
     </div>
   </div>
 </template>
+<script setup lang="ts">
+import { defineEmits } from 'vue'
+
+const emits = defineEmits(['toggleForm'])
+
+const toggle = () => {
+  emits('toggleForm')
+}
+</script>
 <style lang="scss" scoped>
 .flex {
   display: flex;
@@ -59,6 +69,13 @@
       left: 50%;
       color: #fff;
       transform: translate(-50%);
+    }
+
+    .dv-btn-toggle {
+      position: absolute;
+      bottom: 0;
+      right: 20%;
+      color: #fff;
     }
 
     .dv-dec-6 {

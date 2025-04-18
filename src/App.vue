@@ -1,7 +1,10 @@
 <template>
-  <full-screen-container class="container">
+  <dv-full-screen-container class="container">
     <router-view></router-view>
-  </full-screen-container>
+  </dv-full-screen-container>
+<!--  <full-screen-container class="container">-->
+<!--    -->
+<!--  </full-screen-container>-->
 </template>
 
 <script setup lang="ts">

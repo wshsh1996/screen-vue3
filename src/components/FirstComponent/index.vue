@@ -1,8 +1,7 @@
 <template>
   <!-- 第一个 停电检测 -->
-  <div>
     <!-- 二级标题 -->
-    <dv-border-box-11 title="⚡️ 停电检测" style="width: 900px; height: 930px">
+    <dv-border-box-11 title="⚡️ 停电检测" style="width: 100%;height: 930px;" >
       <div>
         <!-- 三级标题 -->
         <div>
@@ -149,7 +148,6 @@
         </div>
       </div>
     </dv-border-box-11>
-  </div>
 </template>
 
 <style lang="scss" scoped>

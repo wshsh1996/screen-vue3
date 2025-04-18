@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import './style.css'
+import './common.css'
 import App from './App.vue'
 import router from './router'
 import DataVVue3 from '@kjgl77/datav-vue3'

@@ -4,7 +4,7 @@
         <!-- 二级标题 -->
         <dv-border-box-11
           title="⚡️ 停电检测"
-          style="width: 900px; height: 930px"
+          style="width: 100%; height: 930px"
         >
           <div>
             <!-- 三级标题 -->
